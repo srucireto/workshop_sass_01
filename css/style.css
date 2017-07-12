@@ -1,0 +1,178 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  min-width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+header {
+  background: #000;
+  min-height: 580px; }
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px #999; }
+    header nav .logo {
+      margin: 20px 0;
+      font-family: Helvetica, sans-serif;
+      font-size: 25px;
+      color: #999;
+      font-weight: bold; }
+      header nav .logo span {
+        color: #fff; }
+    header nav .menu {
+      display: flex; }
+      header nav .menu ul {
+        display: flex; }
+        header nav .menu ul li {
+          box-sizing: border-box;
+          margin: 0 10px;
+          font-family: Helvetica, sans-serif;
+          font-size: 13px;
+          margin: 0 20px; }
+          header nav .menu ul li a {
+            color: #999; }
+          header nav .menu ul li .flecha {
+            font-size: 12px; }
+  header .data-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 530px; }
+    header .data-header h1 {
+      color: #fff;
+      font-family: Helvetica, sans-serif;
+      font-weight: 700;
+      font-size: 60px;
+      text-align: center;
+      margin-bottom: 20px; }
+    header .data-header p {
+      color: #999;
+      font-family: Helvetica, sans-serif;
+      text-align: center;
+      font-weight: 300;
+      width: 600px;
+      font-size: 24px;
+      margin-bottom: 25px; }
+    header .data-header a {
+      font-family: Helvetica, sans-serif;
+      color: #fff;
+      font-weight: bold;
+      background: #ec6919;
+      font-size: 14px;
+      padding: 15px 25px; }
+
+#introducing {
+  min-height: 500px;
+  display: flex;
+  align-items: center; }
+  #introducing .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  #introducing h2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 20px; }
+  #introducing .subtitulos {
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    color: #999;
+    font-weight: bold;
+    margin-bottom: 20px; }
+  #introducing .col3 {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  #introducing article {
+    max-width: 30%;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    #introducing article .icon {
+      font-size: 52px;
+      border: solid #000 6px;
+      padding: 40px;
+      border-radius: 100%;
+      width: 30px;
+      height: 30px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    #introducing article h3 {
+      font-family: Helvetica, sans-serif;
+      font-size: 18px;
+      color: #000;
+      font-weight: bold;
+      text-align: center;
+      text-rendering: optimizelegibility;
+      margin-bottom: 25px; }
+    #introducing article p {
+      font-family: Helvetica, sans-serif;
+      font-size: 13px;
+      color: #666;
+      margin-bottom: 10px;
+      text-align: center;
+      line-height: 20px; }
+      #introducing article p span {
+        color: #ec6919; }
+
+/*# sourceMappingURL=style.css.map */
